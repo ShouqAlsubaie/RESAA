@@ -178,20 +178,6 @@ const SidePanel = ({
    );
 };
 
-// --- View: User Profile ---
-
-
-// --- Calendar Widget (Custom UI) ---
-
-
-// --- View: Bid History ---
-
-
-// --- View: Wallet ---
-
-
-// --- Login Required Modal ---
-
 // 1. Add state at the top of Navbar — convert it to a function component
 const Navbar = ({
    onNavigate,
@@ -355,24 +341,6 @@ const Navbar = ({
    );
 };
 
-// --- Horizontal Filter Bar ---
-
-// --- Component: Asset Reference Card (Listing) ---
-
-// --- Component: Vision Mission (New) ---
-
-// --- Detail View ---
-
-
-// --- Wizard: Add Auction ---
-
-
-// --- View: My Auctions ---
-
-// --- Live Bidding Room ---
-
-
-// --- Modals ---
 
 const WalletModal = ({ balance, onClose, onRecharge }: { balance: number, onClose: () => void, onRecharge: (amount: number) => void }) => {
    const [amount, setAmount] = useState("");

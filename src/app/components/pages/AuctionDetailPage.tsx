@@ -386,10 +386,6 @@ export default function AuctionDetailPage({
                                   {PriceService.formatPrice(analysis.price_range.low)} -{" "}
                                   {PriceService.formatPrice(analysis.price_range.high)}
                                 </div>
-                                <div className="text-[10px] text-emerald-600 mt-1 flex items-center justify-center gap-1">
-                                  <TrendingUp className="w-3 h-3" />
-                                  +{analysis.annual_growth}% نمو سنوي
-                                </div>
                               </div>
 
                               <div className="p-4 bg-slate-50 rounded-lg border border-slate-100 text-center">
